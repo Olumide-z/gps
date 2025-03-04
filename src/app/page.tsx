@@ -47,7 +47,7 @@ const page = () => {
               alt='s' 
               height={100} 
               width={70} 
-              className='w-full h-[100px] object-contain' 
+              className='w-full h-[100px] object-cover' 
             />
           </div>
 
