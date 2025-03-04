@@ -39,20 +39,19 @@ const page = () => {
           className='object-cover'
         />
         
-        <div className='flex items-center gap-2 absolute bottom-0 w-[96%] h-[100px] p-[1rem] left-[.5rem] right-2'>
+        <div className='flex items-center gap-2 absolute bottom-[1rem] w-[96%] h-[90px] p-[1rem] left-[.5rem] right-2'>
           {/* Left Image */}
-          <div className='w-[20%] h-full'>
+          <div className='w-[25%] h-full relative'>
             <Image 
               src='/images/pic2.jpeg' 
               alt='s' 
-              height={100} 
-              width={70} 
-              className='w-full h-[100px] object-contain' 
+              fill
+              className='object-cover' 
             />
           </div>
 
           {/* Glassmorphic Transparent Overlay */}
-          <div className='w-[80%] h-[88px] rounded-md rounded-tr-[0px] padding leading-[20px] text-white bg-[rgba(0,0,0,0.55)] backdrop-filter'>
+          <div className='w-[75%] h-full rounded-md rounded-tr-[0px] padding leading-[20px] text-white bg-[rgba(0,0,0,0.55)] backdrop-filter'>
             <div className='flex items-center gap-2 p-2 absolute text-[0.65rem] right-[0] top-[-1rem] font-[900] m-3 bg-[rgba(0,0,0,0.55)] backdrop-filter'>
               <Image 
                 src='/images/gps.jpg' 
@@ -64,9 +63,9 @@ const page = () => {
               <h3>GPS Map Camera</h3>
             </div>
             <p className='text-[0.8rem]'>{data.location}</p>
-            <span className='text-[0.8rem]'>{data.address}</span>
-            <p className='text-[0.8rem]'>Lat {data.lat} Long {data.long}</p>
-            <p className='uppercase text-[0.8rem]'>{currentTime} GMT +1:00</p>
+            <span className='text-[0.75rem]'>{data.address}</span>
+            <p className='text-[0.75rem]'>Lat {data.lat} Long {data.long}</p>
+            <p className='uppercase text-[0.75rem]'>{currentTime} GMT +1:00</p>
           </div>
         </div>
       </div>
