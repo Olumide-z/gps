@@ -47,13 +47,13 @@ const page = () => {
               alt='s' 
               height={100} 
               width={70} 
-              className='w-full h-[100px] object-cover' 
+              className='w-full h-[100px] object-contain' 
             />
           </div>
 
           {/* Glassmorphic Transparent Overlay */}
           <div className='w-[80%] h-[88px] rounded-md rounded-tr-[0px] padding leading-[20px] text-white bg-[rgba(0,0,0,0.55)] backdrop-filter'>
-            <div className='flex items-center gap-2 p-2 rounded-t-md absolute text-[0.65rem] right-[0] top-[-1rem] font-[900] m-3 bg-[rgba(0,0,0,0.8)] backdrop-filter'>
+            <div className='flex items-center gap-2 p-2 absolute text-[0.65rem] right-[0] top-[-1rem] font-[900] m-3 bg-[rgba(0,0,0,0.55)] backdrop-filter'>
               <Image 
                 src='/images/gps.jpg' 
                 alt='s' 
@@ -63,7 +63,7 @@ const page = () => {
               />
               <h3>GPS Map Camera</h3>
             </div>
-            <p className='text-[1rem] font-[900]'>{data.location}</p>
+            <p className='text-[0.8rem]'>{data.location}</p>
             <span className='text-[0.8rem]'>{data.address}</span>
             <p className='text-[0.8rem]'>Lat {data.lat} Long {data.long}</p>
             <p className='uppercase text-[0.8rem]'>{currentTime} GMT +1:00</p>
