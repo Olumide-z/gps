@@ -29,8 +29,8 @@ const page = () => {
   }, []);
 
   return (
-    <div className='max-w-[450px]'>
-      <div className='w-full h-[100vh] relative'>
+    <div className='max-w-[450px] bg-black h-screen flex items-center justify-center'>
+      <div className='w-full h-[450px] relative'>
         {/* Image */}
         <Image 
           src='/images/pic1.jpeg' 
@@ -51,16 +51,16 @@ const page = () => {
           </div>
 
           {/* Glassmorphic Transparent Overlay */}
-          <div className='w-[75%] h-full rounded-sm rounded-tr-[0px] leading-[15px] padding text-white bg-[rgba(0,0,0,0.55)] backdrop-filter'>
-            <div style={{ paddingTop: '2px'}} className='flex items-center gap-1 absolute right-[0] top-[-.8rem] font-[900] m-3 bg-[rgba(0,0,0,0.55)] backdrop-filter'>
+          <div className='w-[75%] h-full rounded-sm font-[600] rounded-tr-[0px] leading-[15px] padding text-white bg-[rgba(0,0,0,0.55)] backdrop-filter'>
+            <div style={{ paddingTop: '2px'}} className='flex items-center gap-1 absolute right-[0] top-[-1.05rem] font-[900] m-3 bg-[rgba(0,0,0,0.55)] backdrop-filter'>
               <Image 
                 src='/images/gps.jpg' 
                 alt='s' 
-                height={15} 
+                height={23} 
                 width={15} 
                 className='object-contain pl-2 rounded-[2px]' 
               />
-              <p className='text-[0.45rem]' style={{ paddingRight: '1px'}}>GPS Map Camera</p>
+              <p className='text-[0.45rem]' style={{ paddingRight: '1px', fontWeight: '600'}}>GPS Map Camera</p>
             </div>
             <p className='text-[0.7rem]'>{data.location}</p>
             <span className='text-[0.7rem]'>{data.address}</span>
