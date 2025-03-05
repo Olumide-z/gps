@@ -51,21 +51,21 @@ const page = () => {
           </div>
 
           {/* Glassmorphic Transparent Overlay */}
-          <div className='w-[75%] h-full rounded-md rounded-tr-[0px] padding leading-[20px] text-white bg-[rgba(0,0,0,0.55)] backdrop-filter'>
-            <div className='flex items-center gap-2 p-2 absolute text-[0.65rem] right-[0] top-[-1rem] font-[900] m-3 bg-[rgba(0,0,0,0.55)] backdrop-filter'>
+          <div className='w-[75%] h-full rounded-sm rounded-tr-[0px] padding text-white bg-[rgba(0,0,0,0.55)] backdrop-filter'>
+            <div className='flex items-center gap-2 p-2 absolute right-[0] top-[-1rem] font-[900] m-3 bg-[rgba(0,0,0,0.55)] backdrop-filter'>
               <Image 
                 src='/images/gps.jpg' 
                 alt='s' 
-                height={30} 
-                width={30} 
+                height={20} 
+                width={20} 
                 className='object-contain' 
               />
-              <h3>GPS Map Camera</h3>
+              <p className='text-[0.65rem]'>GPS Map Camera</p>
             </div>
             <p className='text-[0.8rem]'>{data.location}</p>
             <span className='text-[0.75rem]'>{data.address}</span>
             <p className='text-[0.75rem]'>Lat {data.lat} Long {data.long}</p>
-            <p className='uppercase text-[0.75rem]'>{currentTime} GMT +1:00</p>
+            <p className='uppercase text-[0.75rem]'>{currentTime} GMT +01:00</p>
           </div>
         </div>
       </div>
