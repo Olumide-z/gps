@@ -43,7 +43,7 @@ const page = () => {
           {/* Left Image */}
           <div className='w-[25%] h-full relative'>
             <Image 
-              src='/images/pic2.jpeg' 
+              src='/images/pic2.jpg' 
               alt='s' 
               fill
               className='object-cover' 
@@ -51,21 +51,21 @@ const page = () => {
           </div>
 
           {/* Glassmorphic Transparent Overlay */}
-          <div className='w-[75%] h-full rounded-sm rounded-tr-[0px] padding text-white bg-[rgba(0,0,0,0.55)] backdrop-filter'>
-            <div className='flex items-center gap-2 p-2 absolute right-[0] top-[-1rem] font-[900] m-3 bg-[rgba(0,0,0,0.55)] backdrop-filter'>
+          <div className='w-[75%] h-full rounded-sm rounded-tr-[0px] leading-[15px] padding text-white bg-[rgba(0,0,0,0.55)] backdrop-filter'>
+            <div style={{ paddingTop: '2px'}} className='flex items-center gap-1 absolute right-[0] top-[-.8rem] font-[900] m-3 bg-[rgba(0,0,0,0.55)] backdrop-filter'>
               <Image 
                 src='/images/gps.jpg' 
                 alt='s' 
-                height={20} 
-                width={20} 
-                className='object-contain' 
+                height={15} 
+                width={15} 
+                className='object-contain pl-2 rounded-[2px]' 
               />
-              <p className='text-[0.65rem]'>GPS Map Camera</p>
+              <p className='text-[0.45rem]' style={{ paddingRight: '1px'}}>GPS Map Camera</p>
             </div>
-            <p className='text-[0.8rem]'>{data.location}</p>
-            <span className='text-[0.75rem]'>{data.address}</span>
-            <p className='text-[0.75rem]'>Lat {data.lat} Long {data.long}</p>
-            <p className='uppercase text-[0.75rem]'>{currentTime} GMT +01:00</p>
+            <p className='text-[0.7rem]'>{data.location}</p>
+            <span className='text-[0.7rem]'>{data.address}</span>
+            <p className='text-[0.7rem]'>Lat {data.lat} Long {data.long}</p>
+            <p className='uppercase text-[0.7rem]'>{currentTime} GMT +01:00</p>
           </div>
         </div>
       </div>
