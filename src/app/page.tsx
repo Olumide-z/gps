@@ -30,10 +30,10 @@ const page = () => {
 
   return (
     <div className='max-w-[450px] bg-black h-screen flex items-center justify-center'>
-      <div className='w-full max-h-[600px] relative'>
+      <div className='w-full h-[580px] relative'>
         {/* Image */}
         <Image 
-          src='/images/pic1.jpeg' 
+          src='/images/pic01.jpeg' 
           fill 
           alt='' 
           className='object-cover'
@@ -43,7 +43,7 @@ const page = () => {
           {/* Left Image */}
           <div className='w-[25%] h-full relative'>
             <Image 
-              src='/images/pic2.jpg' 
+              src='/images/pic02.jpg' 
               alt='s' 
               fill
               className='object-cover' 
@@ -51,7 +51,7 @@ const page = () => {
           </div>
 
           {/* Glassmorphic Transparent Overlay */}
-          <div className='w-[75%] h-full rounded-sm font-[600] rounded-tr-[0px] leading-[15px] padding text-white bg-[rgba(0,0,0,0.55)] backdrop-filter'>
+          <div className='w-[75%] h-full rounded-sm font-[400] font-sans rounded-tr-[0px] leading-[15px] padding text-white bg-[rgba(0,0,0,0.55)] backdrop-filter'>
             <div style={{ paddingTop: '2px'}} className='flex items-center gap-1 absolute right-[0] top-[-1.05rem] font-[900] m-3 bg-[rgba(0,0,0,0.55)] backdrop-filter'>
               <Image 
                 src='/images/gps.jpg' 
