@@ -30,7 +30,7 @@ const page = () => {
 
   return (
     <div className='max-w-[450px] bg-black h-screen flex items-center justify-center'>
-      <div className='w-full h-[500px] relative'>
+      <div className='w-full h-[550px] relative'>
         {/* Image */}
         <Image 
           src='/images/pic1.jpeg' 
@@ -39,7 +39,7 @@ const page = () => {
           className='object-cover'
         />
         
-        <div className='flex items-center gap-2 absolute bottom-[1rem] w-[96%] h-[90px] p-[1rem] left-[.5rem] right-2'>
+        <div className='flex items-center gap-2 absolute bottom-[.7rem] w-[96%] h-[90px] p-[1rem] left-[.5rem] right-2'>
           {/* Left Image */}
           <div className='w-[25%] h-full relative'>
             <Image 
