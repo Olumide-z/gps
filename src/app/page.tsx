@@ -30,7 +30,7 @@ const page = () => {
 
   return (
     <div className='max-w-[450px] bg-black h-screen flex items-center justify-center'>
-      <div className='w-full h-[550px] relative'>
+      <div className='w-full max-h-[600px] relative'>
         {/* Image */}
         <Image 
           src='/images/pic1.jpeg' 
