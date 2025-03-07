@@ -64,9 +64,9 @@ const page = () => {
               <p className='text-[0.45rem]' style={{ paddingRight: '1px', fontWeight: '600'}}>GPS Map Camera</p>
             </div>
             <p className='text-[0.7rem] leading-[17px]'>{data.location}</p>
-            <span className='text-[0.8rem]'>{data.address}</span>
-            <p className='text-[0.8rem]'>Lat {data.lat} Long {data.long}</p>
-            <p className='uppercase text-[0.8rem]'>{currentTime} GMT +01:00</p>
+            <span className='text-[0.75rem]'>{data.address}</span>
+            <p className='text-[0.75rem]'>Lat {data.lat} Long {data.long}</p>
+            <p className='uppercase text-[0.75rem]'>{currentTime} GMT +01:00</p>
           </div>
         </div>
       </div>
