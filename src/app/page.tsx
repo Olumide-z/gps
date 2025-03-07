@@ -33,7 +33,7 @@ const page = () => {
       <div className='w-full h-[580px] relative'>
         {/* Image */}
         <Image 
-          src='/images/pic01.jpeg' 
+          src='/images/01.jpeg' 
           fill 
           alt='' 
           className='object-cover'
@@ -43,7 +43,7 @@ const page = () => {
           {/* Left Image */}
           <div className='w-[25%] h-full relative'>
             <Image 
-              src='/images/pic02.jpg' 
+              src='/images/pic03.jpg' 
               alt='s' 
               fill
               className='object-cover' 
@@ -51,7 +51,7 @@ const page = () => {
           </div>
 
           {/* Glassmorphic Transparent Overlay */}
-          <div className='w-[75%] h-full rounded-sm font-[400] font-sans rounded-tr-[0px] leading-[15px] padding text-white bg-[rgba(0,0,0,0.55)] backdrop-filter'>
+          <div className='w-[75%] h-full rounded-sm font-[400] font-sans rounded-tr-[0px] leading-[18px] padding text-white bg-[rgba(0,0,0,0.55)] backdrop-filter'>
             <div style={{ paddingTop: '2px'}} className='flex items-center gap-1 absolute right-[0] top-[-1.05rem] font-[900] m-3 bg-[rgba(0,0,0,0.55)] backdrop-filter'>
               <Image 
                 src='/images/gps.jpg' 
@@ -63,10 +63,10 @@ const page = () => {
               />
               <p className='text-[0.45rem]' style={{ paddingRight: '1px', fontWeight: '600'}}>GPS Map Camera</p>
             </div>
-            <p className='text-[0.7rem]'>{data.location}</p>
-            <span className='text-[0.7rem]'>{data.address}</span>
-            <p className='text-[0.7rem]'>Lat {data.lat} Long {data.long}</p>
-            <p className='uppercase text-[0.7rem]'>{currentTime} GMT +01:00</p>
+            <p className='text-[0.8rem]'>{data.location}</p>
+            <span className='text-[0.8rem]'>{data.address}</span>
+            <p className='text-[0.8rem]'>Lat {data.lat} Long {data.long}</p>
+            <p className='uppercase text-[0.8rem]'>{currentTime} GMT +01:00</p>
           </div>
         </div>
       </div>
