@@ -52,7 +52,7 @@ const page = () => {
 
           {/* Glassmorphic Transparent Overlay */}
           <div className='w-[75%] h-full rounded-sm font-[500] font-sans rounded-tr-[0px] leading-[16px] padding text-white bg-[rgba(0,0,0,0.55)] backdrop-filter'>
-            <div style={{ paddingTop: '2px'}} className='flex items-center gap-1 absolute right-[0] top-[-1.07rem] font-[900] m-3 bg-[rgba(0,0,0,0.55)] backdrop-filter'>
+            <div style={{ paddingTop: '2px'}} className='flex items-center gap-1 absolute right-[0] top-[-1.08rem] font-[900] m-3 bg-[rgba(0,0,0,0.55)] backdrop-filter'>
               <Image 
                 src='/images/gps.jpg' 
                 alt='s' 
@@ -63,10 +63,10 @@ const page = () => {
               />
               <p className='text-[0.45rem]' style={{ paddingRight: '1px', fontWeight: '600'}}>GPS Map Camera</p>
             </div>
-            <p className='text-[0.7rem]'>{data.location}</p>
-            <span className='text-[0.75rem]'>{data.address}</span>
-            <p className='text-[0.75rem]'>Lat {data.lat} Long {data.long}</p>
-            <p className='uppercase text-[0.75rem]'>{currentTime} GMT +01:00</p>
+            <p className='text-[0.65rem]'>{data.location}</p>
+            <span className='text-[0.7rem]'>{data.address}</span>
+            <p className='text-[0.7rem]'>Lat {data.lat} Long {data.long}</p>
+            <p className='uppercase text-[0.7rem]'>{currentTime} GMT +01:00</p>
           </div>
         </div>
       </div>
