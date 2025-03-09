@@ -1,3 +1,3 @@
 export const data = 
     {location: 'Lagos, Lagos, Nigeria', 
-        address: '110 Shibiri Rd, Ojo, Lagos, Lagos, 102104, Nigeria', long: '3.150124°', lat: '6.460971°',}
+        address: 'F45f+5q6, Imude Rd, Ojo, Lagos, Lagos, 102104, Nigeria', long: '3.12445°', lat: '6.457736°',}
