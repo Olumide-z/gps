@@ -51,8 +51,8 @@ const page = () => {
           </div>
 
           {/* Glassmorphic Transparent Overlay */}
-          <div className='w-[75%] h-full rounded-sm font-[500] font-sans rounded-tr-[0px] leading-[16px] padding text-white bg-[rgba(0,0,0,0.55)] backdrop-filter'>
-            <div style={{ paddingTop: '2px'}} className='flex items-center gap-1 absolute right-[0] top-[-1.08rem] font-[900] m-3 bg-[rgba(0,0,0,0.55)] backdrop-filter'>
+          <div className='w-[75%] h-full rounded-sm font-[500] font-sans rounded-tr-[0px] leading-[15px] padding text-white bg-[rgba(0,0,0,0.55)] backdrop-filter'>
+            <div style={{ paddingTop: '2px'}} className='flex items-center gap-1 absolute right-[0] top-[-1.09rem] font-[900] m-3 bg-[rgba(0,0,0,0.55)] backdrop-filter'>
               <Image 
                 src='/images/gps.jpg' 
                 alt='s' 
