@@ -33,7 +33,7 @@ const page = () => {
       <div className='w-full h-[580px] relative'>
         {/* Image */}
         <Image 
-          src='/images/01.jpeg' 
+          src='/images/pic01.jpeg' 
           fill 
           alt='' 
           className='object-cover'
@@ -63,7 +63,7 @@ const page = () => {
               />
               <p className='text-[0.45rem]' style={{ paddingRight: '1px', fontWeight: '600'}}>GPS Map Camera</p>
             </div>
-            <p className='text-[0.65rem]'>{data.location}</p>
+            <p className='text-[0.85rem]'>{data.location}</p>
             <span className='text-[0.7rem]'>{data.address}</span>
             <p className='text-[0.7rem]'>Lat {data.lat} Long {data.long}</p>
             <p className='uppercase text-[0.7rem]'>{currentTime} GMT +01:00</p>
