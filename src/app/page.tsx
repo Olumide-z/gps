@@ -33,7 +33,7 @@ const page = () => {
       <div className='w-full h-[580px] relative'>
         {/* Image */}
         <Image 
-          src='/images/pic01.jpeg' 
+          src='/images/pic01.jpg' 
           fill 
           alt='' 
           className='object-cover'
